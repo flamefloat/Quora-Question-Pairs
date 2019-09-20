@@ -32,5 +32,5 @@ test_data = pd.read_csv(root_path + '/Data/quora-question-pairs/11.csv',sep='\t'
 a = test_data[0:5]['question1'].tolist()
 print(a[1].split(' '))
 """
-a = torch.randn(5,3)
+a = torch.randn(6,3)
 print(a, a[-4:-1,:])
